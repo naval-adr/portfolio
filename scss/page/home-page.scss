@@ -1,0 +1,15 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: $to-top;
+}
+@keyframes light{
+    0%, 18%{
+        color: $primary;
+        text-shadow: none;
+    }
+    20%, 100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4 ,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 120px #03bcf4;
+    }
+}

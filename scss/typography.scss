@@ -1,0 +1,38 @@
+.home{
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: relative;
+        letter-spacing: 14px;
+        font-size: 4em;
+        color: $primary;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        outline: none;
+        line-height: 1em;
+        animation: light 2s linear infinite;
+        top: 100px;
+    }
+        p{
+            margin: 200px 0 auto;
+            text-align: center;
+            color: rgba(240, 248, 255, 0.699);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+}
+.describe {
+    h1{
+        color: $secondary;
+        text-align: center;
+    }
+}
+.box-content{
+    h2{
+        margin: 20px;
+    }
+}
+.contact-form {
+    h2{
+        margin: 20px;
+    }
+}
